@@ -18,4 +18,4 @@ a = Converter("dollars", "cents")
 # for i in  range(500, 2000000000, 2030405):
 #     print(i, a.convert(str(i)))
 #
-print(a.convert(105))
+# print(a.convert(105))
