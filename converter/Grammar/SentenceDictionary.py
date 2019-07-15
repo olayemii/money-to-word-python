@@ -1,5 +1,5 @@
 from converter.Helpers import chunkify, reformatter
-from converter.Grammer import DigitDictionary
+from converter.Grammar import DigitDictionary
 import re
 class SentenceDictionary():
     """

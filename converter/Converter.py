@@ -1,4 +1,4 @@
-from converter.Grammer import DigitDictionary, SentenceDictionary
+from converter.Grammar import DigitDictionary, SentenceDictionary
 from converter.Exceptions import DumbheadException
 class Converter():
     def __init__(self, main_currency, sub_currency, language=''):
