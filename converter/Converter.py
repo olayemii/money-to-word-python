@@ -3,7 +3,7 @@ from converter.Exceptions import DumbheadException
 class Converter():
     def __init__(self, main_currency, sub_currency, language=''):
         self.b= SentenceDictionary.SentenceDictionary(main_currency, sub_currency, language)
-    def convert(self, value, round_kobo=True):
+    def convert(self, value, round_kobo=False):
         try:
             if float(value) > 999999999999999:
                 raise DumbheadException.DumbHeadException("Come on, you are that type that keeps searching for what could break a program?")
